@@ -1,0 +1,78 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #1e202b;
+}
+
+nav {
+    background-color: #1E202B;
+    height: 150px;
+}
+
+.navbar-nav .nav-link.active {
+    padding: 5px 25px;
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.navbar-nav .nav-link {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.bg-image {
+    background-image: url(/images/banner.png);
+    /* background-size: cover; */
+    min-height: 350px;
+}
+
+.form-control {
+    border: 0;
+    background: #1e202b;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+}
+
+.form-control::placeholder {
+    color: #757575;
+}
+
+.form-control:focus {
+    background-color: #1E202B;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.search-box button {
+    top: 15%;
+    right: 0.6%;
+    background-color: #009AD8;
+}
+
+.bg-navy{
+    background-color: #323544;
+    border-color: transparent;
+}
+
+.sub-box button {
+    top: 15%;
+    right: 0.6%;
+    background-color: #009AD8;
+}
+
+.weather-container{
+    margin-top: -200px;
+}
+
+.spinner-container{
+    margin-top: -200px;
+}
+
+.bg-footer{
+    background-color: #262936;
+}
+
